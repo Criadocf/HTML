@@ -22,26 +22,56 @@
       <a href="https://www.sofascore.com/pt/tecnico/pep-guardiola/53463" target="_blank">Histórico da carreira de
         Pep.
       </a>
-      <p>Veja na tabela abaixo as equipes que Guardiola treinou e quantos gols seus times fez por temporada,
+    <p>Veja na tabela abaixo as equipes que Guardiola treinou e quantos gols seus times fez por temporada,
         não que fazer muitos gols signifique que um time realmente jogue bem, mas diante da qualidade das ligas
         que Pep Guardiola treinou, mostra o quanto seu time joga pra frente, e que o assistiu sabe que isso
         realmente era convertido em um futebol mágico:</p>
 
         <a href="TABELA11NALINHA.html">CLIQUE AQUI PRA ACESSAR À TABELA</a>
 
+    <p><PREENCHA O FORMULÁRIO ABAIXO PARA SE CADASTRAR NO NOSSO BLOG E RECEBER PROMOÇÕES E NOTÍCIAS EXCLUSIVAS SOBRE FUTEBOL.</p>
 
 
+    <form action="form.php" method="POST"> <!--AQUI PRECISARIA DE PHP OU JAVA SCRIPT PRA PODER PROCESSAR AS INFORMAÇÕES DO FORMULÁRIO.-->
 
+      <dir> <!--USO O  'dir' para fazer com que as opções fiquei em baixo uma da outra, já q o 'label' é INLINE.-->
+        <label>Nome</label>
+        <input type="text"</input>
+      </dir>
 
+      <dir>
+        <label>Email</label>
+        <input type="text"</input>
+      </dir>
 
+      <dir>
+        <label>Gênero</label>
+        <select>
+          <option value="masculino">Masculino</option>
+          <option value="feminino">Feminino</option>
+        </select>
+      </dir>
 
+      <dir>
+        <label>Data de nascimento:</label>
+        <input type="date"/>
+      </dir>
 
+      <dir>
+        <label>Senha</label>
+        <input type="password"/>
+      </dir>
 
+      <dir>
+        <label>Mensagem</label>
+        <textarea name="mensagem"></textarea> <!--ABRE A AREA DE ESCREVER UMA MENSAGEM, PODENDO AUMENTAR OU DIMINUIR ESSE RETANGULO-->
+      </div>
 
+      <input type="submit"/> <!--CRIA BOTÃO DE 'ENVIAR'-->
 
+    </form>
 
-
-
+</html>
   </body>
 
 
